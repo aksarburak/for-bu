@@ -2,6 +2,11 @@ README
 ======
 A starting point for DSOS Python data query.
 
+For Docker Engine installation (Community Edition; CE):
+- [docker-ce on Ubuntu](https://docs.docker.com/engine/install/ubuntu/),
+- [docker-ce on Fedora](https://docs.docker.com/engine/install/fedora/),
+- [docker-ce on CentOS](https://docs.docker.com/engine/install/centos/).
+
 ```sh
 $ docker pull ovishpc/ldms-agg # this contains sos/dsos libraries
 $ tar xzf store.tgz # extract meminf-1 and meminfo-2 stores
