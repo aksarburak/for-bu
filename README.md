@@ -40,7 +40,7 @@ Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from sosdb import Sos
 >>> session = Sos.Session("dsos.conf")
->>> cont = session.open("/store/meminfo")
+>>> cont = session.open("/store/meminfo") # or "/store/vmstat" or "/store/procstat"
 >>> q = cont.query(1024*1024)
 >>> q.select('SELECT * FROM meminfo')
 >>> data = q.next()
