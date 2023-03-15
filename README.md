@@ -2,6 +2,15 @@ README
 ======
 A starting point for DSOS Python data query.
 
+See https://github.com/ovis-hpc/ldms-containers for the scripts / Dockerfiles
+that build all `ovishpc/ldms-*` images.
+
+For Django UI-backend, see
+https://hub.docker.com/repository/docker/ovishpc/ldms-ui/general
+
+For Grafana + grafana plugin, see
+https://hub.docker.com/repository/docker/ovishpc/ldms-grafana/general
+
 For Docker Engine installation (Community Edition; CE):
 - [docker-ce on Ubuntu](https://docs.docker.com/engine/install/ubuntu/),
 - [docker-ce on Fedora](https://docs.docker.com/engine/install/fedora/),
