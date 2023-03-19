@@ -75,3 +75,20 @@ Type "help", "copyright", "credits" or "license" for more information.
 <class 'NoneType'>
 >>> # No more data
 ```
+
+After you are done with the containers, do the following: 
+
+```bash
+
+$ sudo docker ps
+
+And get the container ID for dsos-dev container. 
+
+$ sudo docker stop <CONTAINER_ID>
+$ sudo docker rm <CONTAINER_ID>
+
+Then you can execute the following command: 
+
+$ docker run -it --name dsos-dev --hostname dsos-dev --network dsos \
+             --entrypoint /bin/bash ovishpc/ldms-agg
+```
